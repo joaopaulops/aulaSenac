@@ -1,0 +1,15 @@
+#bloco{
+    color: blue;
+    text-shadow: 2px 2px 2px white;
+    background-color: green;
+    
+    }
+    .bloco{
+      background-color: green;
+      color: white !important; 
+      text-shadow: 2px 3px 2px black;     
+      
+    }
+    .tamfonte{
+        font-size: 22px;
+        
