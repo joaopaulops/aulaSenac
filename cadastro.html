@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+ <style> 
+
+   body{
+
+      background-color: green;
+      color:black;
+  
+    } 
+    
+    a{
+     
+     text-decoration: none;
+
+
+    }
+
+    #data{
+
+        margin-left: 10px;
+    }
+
+    #email{
+
+
+        margin-left: 20px;
+    }
+
+ </style>
+</head>
+<body>
+<hr>    
+         <h1>Cadastro de  Aluno</h1>
+
+         <input type="text" name="nome" id="nome" placeholder="Nome">
+         <input type="text" name="nome" id="sobrenome" placeholder="Sobrenome">
+         <input type="date" name="data" id="data" placeholder="data">
+         <input type="email" name="email" id="email" placeholder="E-mail">
+
+<br> <br> <br>
+          <button onclick="mudarnome()">Mudar Nome</button>
+          <button onclick="mudarsobrenome()">Mudar Sobrenome</button> 
+          <button onclick="mudaremail()">Mudar Email</button> 
+          <button onclick="limpartexto()">Limpar texto </button>
+          <!--<a href="index.html">Mudar Nome</a>-->
+<hr>
+</body>
+<script>
+
+      function mudarnome() {
+           
+        document.getElementById('nome').value = 'Paulo'
+    }
+    
+    function mudarsobrenome() {
+        
+        document.getElementById('sobrenome').value = 'silva'
+        
+    }
+    
+    function mudaremail() {
+        
+        document.getElementById('email').value = 'Paulo@gmail.com'
+          
+      }
+
+      function limpartexto() {
+          
+        document.getElementById('nome').value =  ''
+        document.getElementById('sobrenome').value =  ''
+        document.getElementById('email').value =  ''
+      }
+    
+</script>
+</html>
